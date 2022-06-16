@@ -37,6 +37,11 @@
     font-weight:700;
 }
 
+.banner span #perrito-1, #perrito-2 {
+    width:20px;
+    height:auto;
+}
+
 .banner .navbar{
     display:flex;
     margin-top:25px;
