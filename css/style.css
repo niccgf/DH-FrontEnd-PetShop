@@ -1,0 +1,135 @@
+* {
+    margin:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.superior {
+    background-color:#222222;
+    display:flex;
+    color:#F3F3F3;
+    justify-content:space-between;
+}
+.superior span {
+    padding-left:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.superior .price{
+    display:flex;
+    padding-top:5px;
+    padding-right:10px;
+}
+
+.banner{
+    background-color:#F0A83E;
+    display:flex;
+    justify-content: space-between;
+}
+
+.banner span {
+    color:white;
+    margin-left:58px;
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:25px;
+    font-weight:700;
+}
+
+.banner .navbar{
+    display:flex;
+    margin-top:25px;
+    margin-right:58px;
+}
+
+.banner .navbar li{
+    color:white;
+    display:inline;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+.welcome {
+    background-image: url(../assets/banner.jpeg);
+    display:flex;
+    justify-content:end;
+    background-size:100%;
+    background-position:100%;
+    /* padding-right:20px;
+    padding-bottom:107px;
+    padding-top:156px; */
+}
+
+.welcome .titulares{
+    display:flex;
+    flex-direction:column;
+    margin-right:20px;
+    margin-bottom:107px;
+    margin-top:156px;
+    align-items:center;
+}
+
+.welcome .titulares li {
+    display:flex;
+    padding-top:11px;
+    padding-bottom:11px;
+    justify-content: center;
+}
+
+.welcome .titulares .titular{
+    font-size:30px;
+    background-color:white;
+    border-radius:5px;
+    padding: 10px;
+    color: #3C2313;
+}
+
+.welcome .titulares .promocion{
+    font-size: 16px;
+    font-weight: 400;
+    color: #3C2313;
+}
+
+.welcome .titulares .boton{
+    font-size:16px;
+    background-color:#F0A83E;
+    color:#FFFFFF;
+    width:fit-content;
+    padding:15px 23px 15px 23px;
+    border-radius:5px;
+}
+
+.productos{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+    
+}
+
+.productos .header-prod{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.productos .header-prod img{
+    width:67px;
+    height:71px;
+    margin-bottom:5px;
+}
+
+.productos .header-prod .titulo-prod{
+    margin-bottom:20px;
+    color:#3C2313;
+    font-size:40px;
+    font-weight:700;
+}
+
+.productos .header-prod .subtitle-prod{
+    display:flex;
+    width:100%;
+    justify-content:space-around;
+    font-size:15px;
+    color:#666666
+}
