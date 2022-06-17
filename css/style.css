@@ -182,4 +182,52 @@
     font-size:25px;
     font-weight:700;
     color:#3C2313;
+    margin-bottom:20px;
+}
+
+.contacto .formulario{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.contacto .formulario .form-item{
+    background-color:#3C2313;
+    width:340px;
+    margin-top:5px;
+    margin-bottom:5px;
+    color:#FFFFFF;
+    font-size:9px;
+    padding-top:15px;
+    padding-bottom:14px;
+    padding-right:auto;
+    padding-left:14px;
+    border-radius:15px;
+}
+
+.form-buttons{
+    display:flex;
+    justify-content:center;
+    width:100%;
+    margin-top:35px;
+}
+
+.form-buttons #reset{
+    font-weight:400;
+    font-size:16px;
+    color:#FFFFFF;
+    background-color:#8A8787;
+    border-radius:15px;
+    padding:8px 22px 8px 22px;
+    margin-right:3px;
+}
+
+.form-buttons #enviar{
+    font-weight:400;
+    font-size:16px;
+    color:#FFFFFF;
+    background-color:#F0A83E;
+    border-radius:15px;
+    padding:8px 22px 8px 22px;
+    margin-left:3px;
 }
