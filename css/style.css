@@ -14,12 +14,14 @@
     padding-left:10px;
     padding-top:5px;
     padding-bottom:5px;
+    font-size:10px;
 }
 
 .superior .price{
     display:flex;
     padding-top:5px;
     padding-right:10px;
+    font-size:10px;
 }
 
 .banner{
@@ -28,16 +30,25 @@
     justify-content: space-between;
 }
 
-.banner span {
-    color:white;
+.banner .titulo {
     margin-left:58px;
     margin-top:20px;
     margin-bottom:20px;
+}
+
+.banner .titulo .titulo-front{
+    color:black;
     font-size:25px;
     font-weight:700;
 }
 
-.banner span #perrito-1, #perrito-2 {
+.banner .titulo .titulo-cat{
+    color:white;
+    font-size:25px;
+    font-weight:700;
+}
+
+.banner .titulo #perrito-1, #perrito-2 {
     width:20px;
     height:auto;
 }
@@ -278,3 +289,65 @@
     margin-right:25px;
 }
 
+.informacion{
+    width:100%;
+    background-color:#3C2313;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.informacion .info{
+    display:flex;
+    flex-direction:column;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.informacion .info .info-item{
+    display:flex;
+    align-items:flex-start;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.informacion .info .info-item .info-subitem .titulo-subitem{
+    color:#FFFFFF;
+    font-size:20px;
+    font-weight:700;
+}
+
+.informacion .info .info-item .info-subitem .subtitulo-subitem{
+    color:#8A8787;
+    font-size:10px;
+    font-weight:700;
+}
+
+.informacion .titulo-info{
+    color:white;
+    font-size:25px;
+    font-weight:700;
+    margin-right:70px;
+}
+
+.informacion .titulo-info #perrito-1-info, #perrito-2-info{
+    width:20px;
+    height:auto;
+}
+
+.informacion .titulo-info .front-info{
+    color:#FFFFFF;
+}
+
+.informacion .titulo-info .cat-info{
+    color:#F0A83E;
+}
+
+footer{
+   background-color:#222222;
+   font-size:10px;
+   color:#FFFFFF;
+   text-align:center;
+   padding-top:4px;
+   padding-bottom:4px;
+}
